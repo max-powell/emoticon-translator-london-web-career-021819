@@ -15,7 +15,8 @@ def load_library(path)
 end
 
 def get_japanese_emoticon(yaml, emoticon)
-  load_library(yaml)["get_emoticon"][emoticon]
+  jpemoji = load_library(yaml)["get_emoticon"][emoticon]
+  jpemoji ? jpemoji : "Sorry, I can't recognise that emoji."
 end
 
 def get_english_meaning

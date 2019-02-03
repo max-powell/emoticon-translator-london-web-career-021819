@@ -7,6 +7,7 @@ def load_library(path)
     get_meaning: {},
     get_emoticon: {}
   }
+  lib_ruby
 end
 
 def get_japanese_emoticon

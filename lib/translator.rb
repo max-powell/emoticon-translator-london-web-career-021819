@@ -3,7 +3,10 @@ require "pry"
 
 def load_library(path)
   lib_yaml = YAML.load_file(path)
-  binding.pry
+  lib_ruby = {
+    "get_meaining" = {},
+    "get_emoticon" = {}
+  }
 end
 
 def get_japanese_emoticon

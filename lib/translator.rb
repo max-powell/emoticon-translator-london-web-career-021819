@@ -11,7 +11,7 @@ def load_library(path)
     lib_ruby["get_meaning"][emoticons[1]] = meaning
     lib_ruby["get_emoticon"][emoticons[0]] = emoticons[1]
   end
-  binding.pry
+  lib_ruby
 end
 
 def get_japanese_emoticon

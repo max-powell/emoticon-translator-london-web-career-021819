@@ -9,6 +9,7 @@ def load_library(path)
   }
   lib_yaml.each do |meaning, emoticons|
     lib_ruby["get_meaning"][emoticons[1]] = meaning
+    lib_ruby["get_emoticon"][emoitcons[0]] = emoitcons[1]
   end
   binding.pry
 end

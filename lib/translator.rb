@@ -7,6 +7,8 @@ def load_library(path)
     "get_meaning" => {},
     "get_emoticon" => {}
   }
+  lib_yaml.each do |meaning, emoticons|
+  end
 end
 
 def get_japanese_emoticon

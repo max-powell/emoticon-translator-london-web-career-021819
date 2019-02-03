@@ -20,5 +20,6 @@ def get_japanese_emoticon(yaml, emoticon)
 end
 
 def get_english_meaning
-  # code goes here
+  engemoji = load_library(yaml)["get_meaning"][emoticon]
+  engemoji ? engemoji : "Sorry, that emoticon was not found"
 end

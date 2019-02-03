@@ -4,7 +4,7 @@ require "pry"
 def load_library(path)
   lib_yaml = YAML.load_file(path)
   lib_ruby = {
-    "get_meaining" => {},
+    "get_meaning" => {},
     "get_emoticon" => {}
   }
 end

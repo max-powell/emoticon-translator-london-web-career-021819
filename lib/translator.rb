@@ -8,6 +8,7 @@ def load_library(path)
     "get_emoticon" => {}
   }
   lib_yaml.each do |meaning, emoticons|
+    binding.pry
   end
 end
 

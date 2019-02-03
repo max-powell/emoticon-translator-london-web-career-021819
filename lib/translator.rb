@@ -8,8 +8,9 @@ def load_library(path)
     "get_emoticon" => {}
   }
   lib_yaml.each do |meaning, emoticons|
-    binding.pry
+    lib_ruby["get_meaning"][emoticons[1]] = meaning
   end
+  binding.pry
 end
 
 def get_japanese_emoticon
